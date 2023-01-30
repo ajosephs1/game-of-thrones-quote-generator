@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/game-of-thrones-quote-generator/static/css/main.522be410.css",
+    "main.js": "/game-of-thrones-quote-generator/static/js/main.5942a798.js",
+    "static/media/gotLogo.jpg": "/game-of-thrones-quote-generator/static/media/gotLogo.fde17f6bb0d4f7349949.jpg",
+    "static/media/twitter.png": "/game-of-thrones-quote-generator/static/media/twitter.57573394db94634d7e1f.png",
+    "index.html": "/game-of-thrones-quote-generator/index.html",
+    "main.522be410.css.map": "/game-of-thrones-quote-generator/static/css/main.522be410.css.map",
+    "main.5942a798.js.map": "/game-of-thrones-quote-generator/static/js/main.5942a798.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.522be410.css",
+    "static/js/main.5942a798.js"
+  ]
+}
