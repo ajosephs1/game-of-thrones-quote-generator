@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Noto+Sans&family=Noto+Sans+Mono:wght@400;500&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  /* border: 1px solid black; */
+}
+#logo{
+  height: 2%;
+  margin: 1rem auto;
+  mix-blend-mode: color-burn;
+}
+#quote-box{
+  width: 40rem;
+  margin: 1rem auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#text {
+  
+  font-family: 'Lancelot', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#author, #house {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 1.3rem;
+  color: darkgray;
+}
+#buttons {
+  display: flex ;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+#new-quote {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+#buttons :hover {
+  animation-duration: 0.25ms;
+  opacity: 90%;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ img {height: 65px;}
+ #new-quote {height: 30px;}
