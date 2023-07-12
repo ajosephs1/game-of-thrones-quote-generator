@@ -7,7 +7,8 @@
   /* border: 1px solid black; */
 }
 #logo{
-  height: 2%;
+  margin: auto;
+  height: 1.8%;
   margin: 1rem auto;
   mix-blend-mode: color-burn;
 }
@@ -17,9 +18,8 @@
 }
 
 #text {
-  
   font-family: 'Lancelot', cursive;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   margin-bottom: 20px;
   text-align: left;
 }
@@ -31,6 +31,7 @@
   color: darkgray;
 }
 #buttons {
+  margin-top: -4rem;
   display: flex ;
   align-items: center;
   justify-content: space-between;
