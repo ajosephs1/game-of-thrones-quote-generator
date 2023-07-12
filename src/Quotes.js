@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import twitterIcon from "../src/twitter.png"
-import gotLogo from "../src/gotLogo.jpg"
+import twitterIcon from "../src/assets/twitter.png"
+import gotLogo from "../src/assets/gotLogo.jpg"
 import Button from 'react-bootstrap/Button';
 
 const Quotes = () => {
@@ -32,13 +32,13 @@ const Quotes = () => {
     return (
             <div id="quote-box">
                 <img src={gotLogo} id="logo"></img>
+                <div id="buttons">
+                    <a href="https://twitter.com/intent/tweet" id="tweet-quote"><span><img src={twitterIcon} alt="twitter icon" /></span></a>
+                    <Button id="new-quote" onClick={handleClick}>New Quote</Button>{' '}
+                </div>
                 <div id="text"><p>{quote}</p></div>
                 <div id="author"><p>{author}</p></div>
                 <div id="house"><p>{house}</p></div>
-                <div id="buttons">
-                    <a href="https://twitter.com/intent/tweet" id="tweet-quote"><span><img src={twitterIcon} alt="twitter icon" /></span></a>
-                    <button id="new-quote" onClick={handleClick}>New Quote</button>{' '}
-                </div>
             </div>
                 )
 
