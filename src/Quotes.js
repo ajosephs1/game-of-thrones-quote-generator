@@ -31,7 +31,7 @@ const Quotes = () => {
     }
     return (
         <div className="quote-box">
-            <img src={gotLogo} className="logo"></img>
+            <img src={gotLogo} className="logo" alt="game of thrones logo"></img>
             <section className="buttons">
                 <a href="https://twitter.com/intent/tweet" className="tweet-quote"><img src={twitterIcon} alt="twitter icon" /></a>
                 <Button className="new-quote" onClick={handleClick}>New Quote</Button>{' '}
