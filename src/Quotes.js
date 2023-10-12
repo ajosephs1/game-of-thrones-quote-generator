@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import twitterIcon from "../src/assets/twitter.png"
-import gotLogo from "../src/assets/gotLogo.jpg"
+import gotLogo from "../src/assets/gotLogo.png"
 import Button from 'react-bootstrap/Button';
 
 const Quotes = () => {
@@ -30,17 +30,20 @@ const Quotes = () => {
         getQuote()
     }
     return (
-            <div id="quote-box">
-                <img src={gotLogo} id="logo"></img>
-                <div id="buttons">
-                    <a href="https://twitter.com/intent/tweet" id="tweet-quote"><span><img src={twitterIcon} alt="twitter icon" /></span></a>
-                    <Button id="new-quote" onClick={handleClick}>New Quote</Button>{' '}
+        <div className="quote-box">
+            <img src={gotLogo} className="logo"></img>
+            <section className="buttons">
+                <a href="https://twitter.com/intent/tweet" className="tweet-quote"><img src={twitterIcon} alt="twitter icon" /></a>
+                <Button className="new-quote" onClick={handleClick}>New Quote</Button>{' '}
+            </section>
+            <section className="quote-container">
+                <div className="text"><p>{quote}</p></div><div className="character">
+                    <div className="author"><p>{author}</p></div>
+                    <div className="house"><p>{house}</p></div>
                 </div>
-                <div id="text"><p>{quote}</p></div>
-                <div id="author"><p>{author}</p></div>
-                <div id="house"><p>{house}</p></div>
-            </div>
-                )
+            </section>
+        </div>
+    )
 
 }
 
