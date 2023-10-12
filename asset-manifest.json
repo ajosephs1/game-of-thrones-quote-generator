@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/game-of-thrones-quote-generator/static/css/main.e2367cd1.css",
-    "main.js": "/game-of-thrones-quote-generator/static/js/main.c6091b95.js",
+    "main.css": "/game-of-thrones-quote-generator/static/css/main.ee56f0ef.css",
+    "main.js": "/game-of-thrones-quote-generator/static/js/main.01698888.js",
     "static/media/got-house-emblem.png": "/game-of-thrones-quote-generator/static/media/got-house-emblem.e3c3a7c345ce7909d572.png",
     "static/media/gotLogo.png": "/game-of-thrones-quote-generator/static/media/gotLogo.bbc11a89b6634c7c5147.png",
     "static/media/twitter.png": "/game-of-thrones-quote-generator/static/media/twitter.57573394db94634d7e1f.png",
     "index.html": "/game-of-thrones-quote-generator/index.html",
-    "main.e2367cd1.css.map": "/game-of-thrones-quote-generator/static/css/main.e2367cd1.css.map",
-    "main.c6091b95.js.map": "/game-of-thrones-quote-generator/static/js/main.c6091b95.js.map"
+    "main.ee56f0ef.css.map": "/game-of-thrones-quote-generator/static/css/main.ee56f0ef.css.map",
+    "main.01698888.js.map": "/game-of-thrones-quote-generator/static/js/main.01698888.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2367cd1.css",
-    "static/js/main.c6091b95.js"
+    "static/css/main.ee56f0ef.css",
+    "static/js/main.01698888.js"
   ]
 }
