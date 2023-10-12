@@ -150,20 +150,20 @@ h6 {
   }
   
   .tweet-quote img {
-    height: 5.125rem;
+    height: 5rem;
   }
 
   .new-quote {
-    font-size: 2.125rem;
+    font-size: 2rem;
   }
 
   .text {
-    font-size: 2.5rem;
+    font-size: 2.125rem;
     margin-bottom: 2.5rem;
   }
 
   .author,
   .house {
-    font-size: 1.875rem;
+    font-size: 1.625rem;
   }
 }
