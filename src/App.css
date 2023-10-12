@@ -43,7 +43,7 @@ h6 {
   position: absolute;
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -1;
   opacity: 0.1;
 }
@@ -60,11 +60,10 @@ h6 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .logo {
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -83,7 +82,7 @@ h6 {
 }
 
 .tweet-quote img {
-  height: 4.5rem;
+  height: 3.5rem;
 }
 
 .new-quote {
@@ -92,18 +91,18 @@ h6 {
   font-family: "Lancelot", cursive;
   border-radius: 0.5rem;
   padding: 0.25rem 0.75rem;
-  font-size: 1.825rem;
+  font-size: 1.5rem;
   border-style: none;
 }
 
 .quote-container {
-  height: 40%;
+  height: 45%;
   width: 100%;
 }
 
 .text {
   font-family: "Lancelot", cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -112,7 +111,7 @@ h6 {
 .house {
   display: flex;
   justify-content: flex-end;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: darkgray;
 }
 
